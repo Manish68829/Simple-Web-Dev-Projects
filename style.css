@@ -1,0 +1,76 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Instrument Serif', serif;
+    font-weight: bold;
+}
+.wrapper{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    background: linear-gradient(to bottom right, wheat, pink);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+    padding: 5px;
+}
+p{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.input{
+    padding: 5px;
+}
+
+.btn{
+    padding: 5px;
+}
+#btn{
+    padding: 5px;
+    border: none;
+    border-radius: 9px;
+    
+    cursor: pointer;
+}
+
+#btn:hover{
+    transform: scale(1.05);
+    background-color: greenyellow;
+}
+
+.result{
+    display: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* @media screen and(max-width:900px){
+   .container{ 
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+   }
+} */
